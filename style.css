@@ -10,7 +10,7 @@ body {
   align-items: center;
   min-height: 100vh;
   background: #5e4d6c;
-  font-family: "Borel", sans-serif;
+  font-family: 'Borel', sans-serif;
   color: rgba(245, 245, 220, 0.8);
 }
 
@@ -20,15 +20,15 @@ body {
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 28px;
 }
 
 p {
-  font-family: "Itim", cursive;
-  font-size: 20px;
+  font-family: 'Itim', cursive;
+  font-size: 18px;
   margin-top: 10px;
   text-align: justify;
-  line-height: 1.8;
+  line-height: 1.5;
 }
 
 .clock {
@@ -38,17 +38,18 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url("./Images/background-clock.png");
+  background: url('./Images/background-clock.png');
   background-size: cover;
   border: 4px solid rgba(94, 77, 108, 0.67);
   border-radius: 50%;
   box-shadow: 0 -10px 15px rgba(255, 255, 255, 0.2),
-    inset 0 -15px 15px rgba(255, 255, 255, 0.2), 0 10px 15px rgba(0, 0, 0, 0.23),
-    inset 0 10px 15px rgba(0, 0, 0, 0.23);
+              inset 0 -15px 15px rgba(255, 255, 255, 0.2),
+              0 10px 15px rgba(0, 0, 0, 0.23),
+              inset 0 10px 15px rgba(0, 0, 0, 0.23);
 }
 
 .clock:before {
-  content: "";
+  content: '';
   position: absolute;
   width: 15px;
   height: 15px;
@@ -57,33 +58,26 @@ p {
   z-index: 10000;
 }
 
-.clock .hour,
-.clock .min,
-.clock .sec {
+.clock .hour, .clock .min, .clock .sec {
   position: absolute;
 }
 
-.clock .hour,
-.hr {
+.clock .hour, .hr {
   width: 160px;
   height: 160px;
 }
 
-.clock .min,
-.mn {
+.clock .min, .mn {
   width: 190px;
   height: 190px;
 }
 
-.clock .sec,
-.sc {
+.clock .sec, .sc {
   width: 230px;
   height: 230px;
 }
 
-.hr,
-.mn,
-.sc {
+.hr, .mn, .sc {
   display: flex;
   justify-content: center;
   position: absolute;
@@ -91,7 +85,7 @@ p {
 }
 
 .hr:before {
-  content: "";
+  content: '';
   position: absolute;
   width: 8px;
   height: 80px;
@@ -101,7 +95,7 @@ p {
 }
 
 .mn:before {
-  content: "";
+  content: '';
   position: absolute;
   width: 4px;
   height: 90px;
@@ -111,7 +105,7 @@ p {
 }
 
 .sc:before {
-  content: "";
+  content: '';
   position: absolute;
   width: 2px;
   height: 150px;
@@ -120,18 +114,16 @@ p {
   border-radius: 6px 6px 0 0;
 }
 
-.content {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-}
-
-.text {
-  flex: 1;
-  padding: 20px;
-}
-
 @media (max-width: 768px) {
+  h1 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 16px;
+    width: 100%;
+  }
+
   .content {
     flex-direction: column;
     align-items: center;
@@ -140,5 +132,8 @@ p {
   .text {
     text-align: center;
     padding: 20px 0;
+    width: 100%;
   }
+
+  /* Otros ajustes necesarios para dispositivos móviles */
 }
