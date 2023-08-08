@@ -7,13 +7,32 @@
   
   body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #7d8990;
+    background: #5e4d6c;
+  }
+
+  h1 {
+    padding: 20px;
+    font-family: borel;
+    color: rgba(245, 245, 220, 0.311);
+    font-size: 3vw;
+  }
+
+  p {
+    width: 30%;
+    padding: 20px;
+    font-family: itim;
+    color: rgba(245, 245, 220, 0.311);
+    font-size: 2vw;
+    text-align: start;
+
   }
   
   .clock {
+    margin: 100px;
     width: 350px;
     height: 350px;
     display: flex;
@@ -21,7 +40,7 @@
     align-items: center;
     background: url(./Images/background-clock.png);
     background-size: cover;
-    border: 4px solid #7d8990;
+    border: 4px solid #5e4d6cab;
     border-radius: 50%;
     box-shadow: 0 -10px 15px rgba(255, 255, 255, 0.200),
                 inset 0 -15px 15px rgba(255, 255, 255, 0.200),
@@ -34,7 +53,7 @@
     position: absolute;
     width: 15px;
     height: 15px;
-    background: #ffffffa5;
+    background: #8a779a;
     border-radius: 50%;
     z-index: 10000;
   }
