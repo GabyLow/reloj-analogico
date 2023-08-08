@@ -1,10 +1,10 @@
-# ⏰ Responsive Clock
+# ⏰ Neomorphism Style Analog Clock
 
 Welcome to the Responsive Clock project! 
 
 ## 🚀 Features
 
-- Stylish neumorphism analog clock ⏰🌙
+- Stylish analog clock ⏰🌙
 - Responsive layout for all screen sizes 📱💻
 - Thought-provoking time quote ⏳📚
 
