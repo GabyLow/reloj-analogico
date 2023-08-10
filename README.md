@@ -42,3 +42,9 @@ Happy coding! 🎉
 
 
 ![reloj-analogo](https://github.com/GabyLow/reloj-analogico/assets/127358083/ef7b03a5-e922-4420-8198-1ef85b4d17ad)
+
+
+## <h3 align="left">👍🏼 Support me :</h3>
+
+
+<a href="https://www.buymeacoffee.com/gabylow" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-violet.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
